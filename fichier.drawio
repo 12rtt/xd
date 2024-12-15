@@ -64,9 +64,50 @@
         <mxCell id="connect8" edge="1" parent="1" source="administrator" target="track_status">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+
+        <!-- Table -->
+        <mxCell id="table" style="group" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="400" height="200" as="geometry" />
+        </mxCell>
+
+        <!-- Table Rows and Columns -->
+        <mxCell id="cell1" value="Header 1" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#D3D3D3;" vertex="1" parent="table">
+          <mxGeometry x="0" y="0" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cell2" value="Header 2" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#D3D3D3;" vertex="1" parent="table">
+          <mxGeometry x="133" y="0" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cell3" value="Header 3" style="whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#D3D3D3;" vertex="1" parent="table">
+          <mxGeometry x="266" y="0" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row1col1" value="Row 1, Col 1" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="table">
+          <mxGeometry x="0" y="50" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row1col2" value="Row 1, Col 2" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="table">
+          <mxGeometry x="133" y="50" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row1col3" value="Row 1, Col 3" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="table">
+          <mxGeometry x="266" y="50" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row2col1" value="Row 2, Col 1" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="table">
+          <mxGeometry x="0" y="100" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row2col2" value="Row 2, Col 2" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="table">
+          <mxGeometry x="133" y="100" width="133" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="row2col3" value="Row 2, Col 3" style="whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="table">
+          <mxGeometry x="266" y="100" width="133" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
-
 
