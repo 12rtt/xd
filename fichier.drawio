@@ -10,20 +10,9 @@
         <mxCell id="client" value="Client" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="140" width="50" height="100" as="geometry" />
         </mxCell>
-        
-        <mxCell id="insurance_agent" value="Insurance Agent" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="300" width="50" height="100" as="geometry" />
-        </mxCell>
 
         <mxCell id="administrator" value="Administrator" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="460" width="50" height="100" as="geometry" />
-        </mxCell>
-
-        <mxCell id="medical_provider" value="Medical Provider" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="620" width="50" height="100" as="geometry" />
-        </mxCell>
- <mxCell id="banking_system" value="Banking System" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="140" width="50" height="100" as="geometry" />
+          <mxGeometry x="40" y="300" width="50" height="100" as="geometry" />
         </mxCell>
 
         <!-- Use Cases -->
@@ -43,13 +32,6 @@
           <mxGeometry x="200" y="440" width="120" height="60" as="geometry" />
         </mxCell>
 
-        <mxCell id="approve_claim" value="Approve/Reject Claims" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="240" width="140" height="60" as="geometry" />
-        </mxCell>
-    <mxCell id="generate_report" value="Generate Reports" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="340" width="140" height="60" as="geometry" />
-        </mxCell>
-
         <!-- Connections -->
         <mxCell id="connect1" edge="1" parent="1" source="client" target="create_account">
           <mxGeometry relative="1" as="geometry" />
@@ -67,14 +49,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
 
-        <mxCell id="connect5" edge="1" parent="1" source="insurance_agent" target="approve_claim">
+        <mxCell id="connect5" edge="1" parent="1" source="administrator" target="create_account">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-    <mxCell id="connect6" edge="1" parent="1" source="insurance_agent" target="generate_report">
+
+        <mxCell id="connect6" edge="1" parent="1" source="administrator" target="submit_claim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect7" edge="1" parent="1" source="administrator" target="view_policy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="connect8" edge="1" parent="1" source="administrator" target="track_status">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
 </mxfile>
+
 
